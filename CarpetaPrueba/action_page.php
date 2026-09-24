@@ -1,7 +1,7 @@
 <?php 
 
-$usuario=htmlspecialchars($_GET["fusuario"]);
-$contrasena=htmlspecialchars($_GET["fpassword"]);
+$usuario=htmlspecialchars($_POST["fusuario"]);
+$contrasena=htmlspecialchars($_POST["fpassword"]);
 
 echo "Estos son los datos ".$usuario;
 
